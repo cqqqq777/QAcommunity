@@ -1,0 +1,5 @@
+2022-12-14T17:32:20.113+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:51	err:user already exists
+2022-12-14T18:51:57.216+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:user already exists
+2022-12-14T18:54:58.837+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:generate user failed
+2022-12-14T18:57:37.783+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:generate user failed
+2022-12-14T19:29:20.458+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:generate user failed

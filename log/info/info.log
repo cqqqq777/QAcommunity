@@ -1,0 +1,89 @@
+2022-12-14T15:04:07.930+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T15:18:07.913+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T15:18:35.841+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T15:18:35.846+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T17:22:42.437+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T17:22:42.495+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T17:30:31.943+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T17:30:31.955+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T17:32:20.113+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 500, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 63175041}
+2022-12-14T18:51:55.719+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T18:51:55.739+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T18:51:57.216+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 500, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 9466104}
+2022-12-14T18:54:56.522+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T18:54:56.535+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T18:54:58.838+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 500, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 27811135}
+2022-12-14T18:57:36.031+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T18:57:36.041+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T18:57:37.783+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 500, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 25229532}
+2022-12-14T18:58:10.386+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T18:58:10.392+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T18:58:11.538+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:60	user:tom enroll 
+2022-12-14T18:58:11.538+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 86487742}
+2022-12-14T18:59:42.864+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T18:59:42.869+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T18:59:44.314+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:60	user:tom enroll 
+2022-12-14T18:59:44.315+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 34871022}
+2022-12-14T19:28:53.800+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T19:28:53.811+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T19:28:55.967+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:60	user:tom enroll 
+2022-12-14T19:28:55.967+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 32702790}
+2022-12-14T19:29:18.692+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T19:29:18.696+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T19:29:20.458+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 500, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 38381446}
+2022-12-14T20:10:35.597+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T20:10:35.612+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T20:10:37.494+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 5577819}
+2022-12-14T20:21:27.222+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T20:21:27.227+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T20:21:28.546+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:64	user:tom enroll 
+2022-12-14T20:21:28.546+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 29792464}
+2022-12-14T20:21:59.544+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 2536574}
+2022-12-14T22:11:32.646+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T22:11:32.736+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T22:11:35.916+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:71	user:jane enroll 
+2022-12-14T22:11:35.916+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/enroll	{"status": 200, "method": "POST", "path": "/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 87334478}
+2022-12-14T22:11:55.551+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/login	{"status": 200, "method": "POST", "path": "/public/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 3196000}
+2022-12-14T22:12:37.256+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/login	{"status": 200, "method": "POST", "path": "/public/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 5501695}
+2022-12-14T22:15:26.189+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T22:15:26.211+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T22:15:27.924+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:116	user:jane login
+2022-12-14T22:15:27.924+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/public/login	{"status": 200, "method": "POST", "path": "/public/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 8973141}
+2022-12-14T23:03:21.142+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T23:03:21.173+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T23:03:24.637+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 404, "method": "POST", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 791}
+2022-12-14T23:03:39.929+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:03:39.929+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 61335804}
+2022-12-14T23:04:05.407+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:04:05.407+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 4408913}
+2022-12-14T23:04:15.248+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:04:15.248+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 4007144}
+2022-12-14T23:05:29.576+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T23:05:29.590+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T23:05:31.260+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:05:31.260+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 12706816}
+2022-12-14T23:05:33.252+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:05:33.252+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 4364051}
+2022-12-14T23:05:34.945+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:05:34.945+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 4036894}
+2022-12-14T23:08:31.478+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T23:08:31.487+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T23:08:34.099+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 3982085}
+2022-12-14T23:08:54.426+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:171	userID:78416220499968 revise his password
+2022-12-14T23:08:54.426+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 23223213}
+2022-12-14T23:08:58.837+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1530075}
+2022-12-14T23:11:27.197+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T23:11:27.202+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T23:11:34.012+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:179	userID:78416220499968 revise his password
+2022-12-14T23:11:34.012+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 11062294}
+2022-12-14T23:11:51.423+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:179	userID:78416220499968 revise his password
+2022-12-14T23:11:51.423+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 6509072}
+2022-12-14T23:12:04.100+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T23:12:04.106+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-14T23:12:07.755+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1357910}
+2022-12-14T23:12:10.529+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 103460}
+2022-12-14T23:12:11.089+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 99793}
+2022-12-14T23:12:11.481+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 106936}
+2022-12-14T23:12:11.895+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 106325}
+2022-12-14T23:18:44.210+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-14T23:18:44.221+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
