@@ -6,6 +6,9 @@ database:
     password: "zhaoxijun7"
     db-name: "QAcommunity"
   redis:
+    addr:
+    port: 6379
+
 
 logger:
   max-size: 10
@@ -18,4 +21,4 @@ auth:
   jwt:
     expires-time: 604800
     secret-key: "dODNfSD821dd%%3vdh8"
-  cookie:
+
