@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS QAcommunity;
+
 create table users(
     id bigint not null auto_increment,
     user_id bigint not null ,
@@ -26,6 +28,7 @@ create table posts(
 create table comments(
     id bigint not null auto_increment,
     comment_id bigint not null ,
+    reply_id bigint default 0 not null ,
     content varchar(800) not null ,
     author_id bigint not null ,
     post_id bigint not null ,

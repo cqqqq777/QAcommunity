@@ -87,3 +87,90 @@
 2022-12-14T23:12:11.895+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/private/revisePwd	{"status": 200, "method": "PUT", "path": "/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 106325}
 2022-12-14T23:18:44.210+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
 2022-12-14T23:18:44.221+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-15T22:57:46.813+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-15T22:58:02.132+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-15T22:58:02.152+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:07:51.919+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:08:19.623+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:08:19.690+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:08:22.201+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/enroll	{"status": 200, "method": "POST", "path": "/api/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 141611}
+2022-12-16T01:09:11.871+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:71	user:tom enroll 
+2022-12-16T01:09:11.871+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/enroll	{"status": 200, "method": "POST", "path": "/api/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 75416790}
+2022-12-16T01:09:19.266+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/enroll	{"status": 200, "method": "POST", "path": "/api/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 6449617}
+2022-12-16T01:09:45.335+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:71	user:jane enroll 
+2022-12-16T01:09:45.335+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/enroll	{"status": 200, "method": "POST", "path": "/api/public/enroll", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 16896517}
+2022-12-16T01:11:08.459+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:116	user:tom login
+2022-12-16T01:11:08.459+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/login	{"status": 200, "method": "POST", "path": "/api/public/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 18110230}
+2022-12-16T01:14:28.805+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/revisePwd	{"status": 404, "method": "GET", "path": "/api/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 891}
+2022-12-16T01:14:55.038+0800	INFO	/home/goproject/src/QAcommunity/controller/user.go:180	userID:485498404974592 revise his password
+2022-12-16T01:14:55.038+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/revisePwd	{"status": 200, "method": "PUT", "path": "/api/private/revisePwd", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 29349616}
+2022-12-16T01:18:50.604+0800	INFO	/home/goproject/src/QAcommunity/controller/post.go:132	userid:485498404974592 publish a post
+2022-12-16T01:18:50.604+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/post	{"status": 200, "method": "POST", "path": "/api/private/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 28300177}
+2022-12-16T01:22:37.252+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/post	{"status": 500, "method": "PUT", "path": "/api/private/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 20909019}
+2022-12-16T01:26:50.141+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:26:50.145+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:26:52.913+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/post	{"status": 500, "method": "PUT", "path": "/api/private/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 5682498}
+2022-12-16T01:27:32.737+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:27:32.747+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:27:34.049+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:27:34.054+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:27:35.784+0800	INFO	/home/goproject/src/QAcommunity/controller/post.go:198	userid:485498404974592 update postid:487925816471552
+2022-12-16T01:27:35.784+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/post	{"status": 200, "method": "PUT", "path": "/api/private/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 23249324}
+2022-12-16T01:30:29.511+0800	INFO	/home/goproject/src/QAcommunity/controller/post.go:235	userID:485498404974592 delete postID:487925816471552
+2022-12-16T01:30:29.511+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/post	{"status": 200, "method": "DELETE", "path": "/api/private/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 24438043}
+2022-12-16T01:31:51.035+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 2047259}
+2022-12-16T01:32:00.416+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:32:00.420+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:32:04.587+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:32:04.589+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:32:46.064+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:32:46.067+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:33:02.055+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1124503}
+2022-12-16T01:33:52.676+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:33:52.678+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:34:04.724+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1159339}
+2022-12-16T01:35:26.967+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:35:26.970+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:35:46.535+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:35:46.537+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:36:02.094+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 6006029}
+2022-12-16T01:36:07.024+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 884074}
+2022-12-16T01:36:07.707+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1053206}
+2022-12-16T01:36:08.183+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 956937}
+2022-12-16T01:36:17.758+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1014873}
+2022-12-16T01:36:18.165+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 883490}
+2022-12-16T01:38:05.454+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1655027}
+2022-12-16T01:38:55.478+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1149480}
+2022-12-16T01:40:15.624+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1554767}
+2022-12-16T01:40:43.943+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:40:43.945+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:40:45.675+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 5589059}
+2022-12-16T01:41:15.024+0800	INFO	/home/goproject/src/QAcommunity/controller/post.go:132	userid:485498404974592 publish a post
+2022-12-16T01:41:15.024+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/private/post	{"status": 200, "method": "POST", "path": "/api/private/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 27629011}
+2022-12-16T01:42:50.169+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/post	{"status": 404, "method": "POST", "path": "/api/public/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1152}
+2022-12-16T01:43:14.921+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:43:14.923+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:43:20.132+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/post	{"status": 500, "method": "POST", "path": "/api/public/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 6488820}
+2022-12-16T01:43:47.691+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T01:43:47.696+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T01:43:49.233+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/post	{"status": 500, "method": "POST", "path": "/api/public/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 5344612}
+2022-12-16T01:43:54.196+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/post	{"status": 500, "method": "POST", "path": "/api/public/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1608961}
+2022-12-16T01:43:59.718+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/post	{"status": 500, "method": "POST", "path": "/api/public/post", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 1370163}
+2022-12-16T20:18:24.193+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T20:18:24.197+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T20:18:29.348+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 500, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 5542208}
+2022-12-16T20:20:17.016+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T20:20:17.025+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T20:20:19.580+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 200, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 3059660}
+2022-12-16T20:20:44.795+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T20:20:44.797+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T20:20:46.285+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postTitle	{"status": 200, "method": "GET", "path": "/api/public/postTitle", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 4296870}
+2022-12-16T20:29:04.595+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T20:29:04.597+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T20:29:11.445+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postComments	{"status": 404, "method": "POST", "path": "/api/public/postComments", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 671}
+2022-12-16T20:32:10.617+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T20:32:10.622+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T20:32:13.195+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postComments	{"status": 404, "method": "GET", "path": "/api/public/postComments", "query": "post-id=493564722655232", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 661}
+2022-12-16T20:33:31.692+0800	INFO	/home/goproject/src/QAcommunity/services/boot/logger.go:34	init logger successfully
+2022-12-16T20:33:31.695+0800	INFO	/home/goproject/src/QAcommunity/services/boot/database.go:38	connect mysql successfully
+2022-12-16T20:33:33.010+0800	INFO	/home/goproject/src/QAcommunity/middleware/zap.go:26	/api/public/postComments	{"status": 500, "method": "GET", "path": "/api/public/postComments", "query": "post-id=493564722655232", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": 4353018}

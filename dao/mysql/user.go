@@ -25,3 +25,9 @@ func RevisePwd(user *modal.User, NewPassword string) error {
 	user.Password = NewPassword
 	return g.Mdb.Save(user).Error
 }
+
+func FindUsernameByUserID(ID int) (string, error) {
+	user := new(modal.User)
+	result := g.Mdb.Where("user-id = ?", ID).First(user)
+	return user.Username, result.Error
+}

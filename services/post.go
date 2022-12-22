@@ -16,7 +16,7 @@ func GetAllPostTitle() (string, error) {
 	for _, val := range post {
 		titleSlice = append(titleSlice, val.Title)
 	}
-	title, err := json.Marshal(titleSlice)
+	title, err := json.Marshal(&titleSlice)
 	if err != nil {
 		return "", err
 	}

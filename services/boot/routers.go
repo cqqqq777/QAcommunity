@@ -12,12 +12,13 @@ import (
 func InitRouters() {
 	r := gin.New()
 	r.Use(middleware.GinLogger(g.Logger), middleware.GinRecovery(g.Logger, true))
+	r.Use(middleware.Cors)
 	PublicGroup := r.Group("/api/public")
 	{
 		PublicGroup.POST("/enroll", controller.Enroll)
 		PublicGroup.POST("/login", controller.Login)
 		PublicGroup.GET("/postTitle", controller.GetAllPostsTitle)
-		PublicGroup.GET("/post", controller.PostDetail)
+		PublicGroup.POST("/post", controller.PostDetail)
 		PublicGroup.GET("/postComments", controller.QueryPostComment)
 	}
 	PrivateGroup := r.Group("/api/private", middleware.JWTAuth)

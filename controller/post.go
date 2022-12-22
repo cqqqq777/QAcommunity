@@ -30,7 +30,7 @@ func GetAllPostsTitle(c *gin.Context) {
 
 func PostDetail(c *gin.Context) {
 	//获取帖子id并校验
-	postID := c.PostForm("postID")
+	postID := c.PostForm("post-id")
 	id, err := strconv.ParseInt(postID, 10, 64)
 	if postID == "" || err != nil {
 		utils.RespOK(c, &utils.Resp{
@@ -38,6 +38,7 @@ func PostDetail(c *gin.Context) {
 			Code:   1001,
 			Status: "failed",
 		})
+		return
 	}
 	//查询帖子细节
 	post, err := services.PostDetail(int(id))
@@ -66,7 +67,7 @@ func PostDetail(c *gin.Context) {
 
 func QueryPostComment(c *gin.Context) {
 	//获取帖子id
-	ID := c.PostForm("post-id")
+	ID := c.Query("post-id")
 	postID, err := strconv.ParseInt(ID, 10, 64)
 	if ID == "" || err != nil {
 		utils.RespOK(c, &utils.Resp{

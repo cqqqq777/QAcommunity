@@ -78,6 +78,6 @@ func (w *Worker) nextID() (int, error) {
 	return int(id), nil
 }
 
-func GetUserID() (int, error) {
+func GetID() (int, error) {
 	return NewWorker(123, 123).NextID()
 }

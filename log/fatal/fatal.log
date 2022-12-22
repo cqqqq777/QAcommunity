@@ -1,1 +1,9 @@
 2022-12-14T15:18:07.919+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/database.go:34	connect mysql failed
+2022-12-15T22:57:46.818+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/database.go:34	connect mysql failed
+2022-12-16T01:07:51.920+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/database.go:34	connect mysql failed
+2022-12-16T01:27:34.054+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/routers.go:41	boot service failed err:listen tcp :8080: bind: address already in use
+2022-12-16T01:32:00.421+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/routers.go:41	boot service failed err:listen tcp :8080: bind: address already in use
+2022-12-16T01:32:04.589+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/routers.go:41	boot service failed err:listen tcp :8080: bind: address already in use
+2022-12-16T01:32:46.068+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/routers.go:41	boot service failed err:listen tcp :8080: bind: address already in use
+2022-12-16T01:33:52.682+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/routers.go:41	boot service failed err:listen tcp :8080: bind: address already in use
+2022-12-16T01:35:26.971+0800	FATAL	/home/goproject/src/QAcommunity/services/boot/routers.go:41	boot service failed err:listen tcp :8080: bind: address already in use

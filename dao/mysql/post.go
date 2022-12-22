@@ -6,7 +6,7 @@ import (
 )
 
 func GetAllPostTitle(p []modal.Post) error {
-	return g.Mdb.Select("title").Find(p).Error
+	return g.Mdb.Select("title").Find(&p).Error
 }
 
 func PostDetail(p *modal.Post) error {
@@ -26,7 +26,7 @@ func GetPersonalPost(p []modal.Post, authID int) error {
 }
 
 func UpdatePost(p *modal.Post) error {
-	return g.Mdb.Save(p).Error
+	return g.Mdb.Model(p).Where("post_id = ?", p.PostID).Updates(map[string]interface{}{"title": p.Title, "content": p.Content}).Error
 }
 
 func DeletePost(postID, authorID int) error {

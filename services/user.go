@@ -13,7 +13,7 @@ func Enroll(p *modal.ParamUser) error {
 		return errors.New("user has existed")
 	}
 	//生成user-id
-	userID, err := utils.GetUserID()
+	userID, err := utils.GetID()
 	if err != nil {
 		return errors.New("generate user failed")
 	}

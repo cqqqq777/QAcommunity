@@ -3,3 +3,6 @@
 2022-12-14T18:54:58.837+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:generate user failed
 2022-12-14T18:57:37.783+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:generate user failed
 2022-12-14T19:29:20.458+0800	WARN	/home/goproject/src/QAcommunity/controller/user.go:52	err:generate user failed
+2022-12-16T01:22:37.251+0800	WARN	/home/goproject/src/QAcommunity/controller/post.go:190	an error occurred while update post  error:Error 1062 (23000): Duplicate entry '487925816471552' for key 'posts.idx_post_id'
+2022-12-16T01:26:52.913+0800	WARN	/home/goproject/src/QAcommunity/controller/post.go:190	an error occurred while update post  error:WHERE conditions required
+2022-12-16T01:43:20.131+0800	WARN	/home/goproject/src/QAcommunity/controller/post.go:50	an error occurred while querying the post   error:record not found
