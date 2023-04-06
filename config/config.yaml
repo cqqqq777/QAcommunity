@@ -3,7 +3,7 @@ database:
     addr:
     port: 3306
     username: "root"
-    password: "zhaoxijun7"
+    password: ""
     db-name: "QAcommunity"
   redis:
     addr:
